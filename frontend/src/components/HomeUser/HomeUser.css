@@ -1,0 +1,139 @@
+ /* src/components/HomeRestaurant/HomeRestaurant.css */
+.home-user-page{
+    background-image: url("../../assets/user_background.jpg");
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover;
+}
+.home-user-container {
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-left: 5vw; /* 5% of viewport width */
+    padding-right: 5vw; /* 5% of viewport width */
+    text-align: center;
+}
+
+
+
+.text-center{
+    padding-bottom: 10px;
+    font-size: 2em;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 90px;
+}
+
+.restaurant-card {
+    width: 210px;
+    padding-bottom: 30px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        margin-bottom: 20px;
+}
+
+
+.restaurant-card .card-img-top {
+    flex: 0.5;
+    max-height: 200px;
+    object-fit: cover; /* This will make the image cover the whole height of the card */
+}
+
+
+.restaurant-card .card-title {
+    font-size: larger; /* Adjust as needed */
+    font-weight: bold;
+}
+
+.restaurant-card .card-body {
+    flex: 0.5;
+    padding: 15px;
+    /* Card body padding */
+    background-color: #f8f9fa;
+    /* Card body background color */
+    height: auto;
+    /* Set height to auto */
+    position: relative;
+    /* Relative position for the 'read more' link */
+    overflow: visible;
+    /* Make overflow visible */
+}
+
+.restaurant-card .card-text {
+    font-size: small;
+    color: #6c757d;
+    overflow: visible;
+    display: initial;
+    /* 增加margin */
+    margin-bottom: 10px;
+}
+
+.restaurant-card:hover {
+    transform: scale(1.05); /* Zoom in effect on hover */
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+    background: linear-gradient(to bottom, #305bb8,  #598fdf);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    padding: 10px 20px;
+}
+
+.menu-items-link {
+    padding-left: 30px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.navbar-brand {
+    font-size: 1.7em;
+    font-weight: bold;
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: white
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: #cccccc;
+}
+
+.search-bar {
+    height: 30px;
+    max-width: 100%;
+        width: 50%;
+    padding-bottom: 30px;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+  }
+  
+.search-bar-container {
+    display: flex;
+    justify-content: center;
+    padding-left: 5vw;
+    /* 5% of viewport width */
+    padding-right: 5vw;
+    /* 5% of viewport width */
+    padding-bottom: 60px;
+}

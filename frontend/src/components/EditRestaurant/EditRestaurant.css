@@ -1,0 +1,111 @@
+/* src/components/EditRestaurant/EditRestaurant.css */
+.edit-restaurant-page {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 50px;
+  min-height: 100vh;
+  background-image: url("../../assets/restaurant-background.jpg");
+  background-color: rgba(0, 0, 0, 0.5);
+  background-size: cover;
+}
+
+.edit-restaurant-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  max-width: 800px;
+  padding: 20px;
+  background-color: transparent;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+.edit-restaurant-title {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #000000;
+  font-size: 2em;
+  text-shadow: 10px 10px 10px #ffffff;
+}
+
+.edit-restaurant-current-info-card {
+  text-align:start;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px 30px;
+  width: 90%;
+  border: 1px solid #ced4da;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #fff;
+  color: #000000;
+}
+
+.edit-restaurant-current-info-card img {
+  max-width: 200px;
+  height: auto;
+}
+
+.edit-restaurant-form {
+  text-align:start;
+  width: 90%;
+  padding: 30px 30px;
+  border: 1px solid #ced4da;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+.edit-restaurant-form .form-group {
+  margin-bottom: 15px;
+}
+
+.edit-restaurant-form .form-label {
+  margin-right: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+.edit-restaurant-form .form-control {
+  height: 30px;
+  font-size: 0.8em;
+  border-color: #ced4da; 
+  border-radius: 5px; 
+  transition: border-color 0.2s ease; 
+}
+
+.edit-restaurant-form .form-control:hover {
+  border-color: #b8bfc4; 
+}
+
+.edit-restaurant-btn-submit-container{
+  display: flex;
+  justify-content: center; 
+  flex-direction: column; 
+  align-items: center; 
+}
+
+.edit-restaurant-btn-submit {
+  margin-top: 30px;
+  margin-bottom: 5px;
+  background-color: #5cb85c; /* 淡绿色 */
+  border-color: #5cb85c;
+  color: #ffffff; /* 白色文字 */
+  font-size: 1em;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.2s ease;
+}
+
+.edit-restaurant-btn-submit:hover {
+  background-color: #449d44; /* 深绿色 */
+  border-color: #398439;
+}

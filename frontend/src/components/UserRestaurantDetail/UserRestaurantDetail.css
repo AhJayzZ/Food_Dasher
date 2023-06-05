@@ -1,0 +1,136 @@
+.restaurant-detail-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+    min-height: 100vh;
+    background-image: url("../../assets/user_background.jpg");
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover;
+}
+
+.restaurant-detail-container {
+    text-align: center;
+    padding: 40px;
+}
+
+.dish-card .card-title {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.dish-card {
+    width: 265px;
+    height: auto;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s;
+    border-radius: 5px;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.dish-card .card-title {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.dish-card .card-body {
+    padding: 20px;
+    background-color: #f8f9fa;
+    position: relative;
+    overflow: hidden;
+}
+
+.dish-card .card-text {
+    font-size: small;
+    color: #6c757d;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+.dish-card:hover {
+    transform: scale(1.05);
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background: linear-gradient(to bottom, #305bb8, #598fdf);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px 20px;
+}
+
+.title {
+    margin-top: 0;
+    padding-top: 40px;
+    font-size: 35px;
+    font-weight: 700;
+    text-shadow: 1px 1px 5px rgba(255, 255, 255, 1);
+}
+
+.description {
+    padding-top: 10px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 500;
+    text-shadow: 1px 1px 5px rgba(255, 255, 255, 1);
+}
+
+.menu-items-link {
+    margin-left: 30px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.navbar-brand {
+    font-size: 1.7em;
+    font-weight: bold;
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: #cccccc;
+}
+
+.add_cart_btn {
+    background-color: #dadada;
+    color: #7c7c7c;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.1s ease;
+    cursor: pointer;
+    height: 33px;
+    width: 110px;
+    font-size: 1.2ch;
+}
+
+.add_cart_btn:hover {
+    background-color: #777777;
+    color: #dadada;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
