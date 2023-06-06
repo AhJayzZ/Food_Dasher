@@ -19,6 +19,7 @@
     - React
   - Backend Framework
     - Django
+    - djangorestframework
   - Database
     - MySQL
   - Develop Enviroment
@@ -51,7 +52,7 @@
     cp .env.sample .env
     vi .env
 
-    Change required: DB_PASSWORD,DB_HOST
+    Change required: DB_PASSWORD , DB_HOST , DB_PORT
     !!! DB_PASSWORD(.env) must same as MYSQL_PASSWORD(docker-compose.yml)!!!
     ```
 
@@ -61,10 +62,10 @@
     cp .env.sample .env
     vi .env
 
-    Change required: REACT_APP_HOST_IP、REACT_APP_API_PORT
+    Change required: REACT_APP_HOST_IP , REACT_APP_API_PORT
     ```
 
-  - ### Step 2. Run Docker Compose (DB、phpMyAdmin)
+  - ### Step 2. Run Docker Compose (MySQL、phpMyAdmin)
 
     ```bash=
     # Path : Food_Dasher/backend/
@@ -94,39 +95,39 @@
 
   - ### Part A. Member
     - #### Member - Register
-      ![](https://imgur.com/a/UGYMDaK)
+      ![Imgur](https://imgur.com/PfFeDPo.png)
     - #### Member - Login
-      ![](https://imgur.com/a/yYALGqE)
+      ![Imgur](https://imgur.com/LUQ7u5t.png)
     - #### Member - Role Selection
-      ![](https://imgur.com/a/82tTzQM)
+      ![Imgur](https://imgur.com/Rrg2Kic.png)
   - ### Part B. User
     - #### User - Restaurant Lobby
-      ![](https://imgur.com/a/6wxf6ZE)
+      ![Imgur](https://imgur.com/u8oLEW8.png)
     - #### User - Restaurant Menu
-      ![](https://imgur.com/a/S82RZMz)
+      ![](https://imgur.com/a/S82RZMz.png)
     - #### User - Order Cart
-      ![](https://imgur.com/a/WUPfkKK)
+      ![](https://imgur.com/a/WUPfkKK.png)
     - #### User - Order Checkout
-      ![](https://imgur.com/a/AZ49RRD)
+      ![](https://imgur.com/a/AZ49RRD.png)
     - #### User - Order Confirmation
-      ![](https://imgur.com/a/3eEdokI)
+      ![](https://imgur.com/a/3eEdokI.png)
     - #### User - Order Status
-      ![](https://imgur.com/a/cO4erUJ)
+      ![](https://imgur.com/a/cO4erUJ.png)
     - #### User - History Order
-      ![](https://imgur.com/a/JD4pF1H)
+      ![](https://imgur.com/a/JD4pF1H.png)
     - #### User - Order Compelete
-      ![](https://imgur.com/a/97WyCak)
+      ![](https://imgur.com/a/97WyCak.png)
     - #### User - Review and Rating
-      ![](https://imgur.com/a/kkyQPzX)
+      ![](https://imgur.com/a/kkyQPzX.png)
     - #### User - Review and Rating Overview
-      ![](https://imgur.com/a/OzBF7pP)
+      ![](https://imgur.com/a/OzBF7pP.png)
   - ### Part C. Restaurant
     - Restaurant - Order
-      ![](https://imgur.com/a/amF2cPk)
+      ![](https://imgur.com/a/amF2cPk.png)
     - Restaurant - Information
-      ![](https://imgur.com/a/cbtU1kl)
+      ![](https://imgur.com/a/cbtU1kl.png)
     - Restaurant - Menu
-      ![](https://imgur.com/a/98pgieN)
+      ![](https://imgur.com/a/98pgieN.png)
 
 - ## Q&A
 
