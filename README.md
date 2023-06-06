@@ -1,17 +1,23 @@
-- # Database Final Project - Food Dasher
+- # Database Design Final Project - Food Dasher
 
   Food Dasher is a database design final project focused on food ordering and delivery operations. It showcases a comprehensive database system with entities such as restaurants, menus, customers, orders, and delivery drivers. The project incorporates efficient data models, relationships, and data integrity constraints. With features like menu management, order placement, and delivery tracking, Food Dasher demonstrates our expertise in designing a scalable and secure database system for a seamless food delivery experience.
+
+---
 
 - ## Goal
 
   The main goal of Food Dasher is to provide a user-friendly platform for customers to easily order food from various restaurants and track the delivery status. Additionally, it aims to streamline restaurant operations by offering menu management tools and efficient order processing capabilities. The project aims to demonstrate the effective use of database design principles to enhance the overall food ordering and delivery experience.
 
+---
+
 - ## Developer
 
   - Backend Development
-    - Antony Wang
+    - Antony Wang(AhJayzZ)
   - Frontend Development
-    - Hank Lin
+    - Hank Lin(hanklin0804)
+
+---
 
 - ## System Architeture
 
@@ -27,6 +33,8 @@
     - OS: Ubuntu 22.04
     - Backend: Python 3.10.6
     - Frontend: Node 14.21.3
+
+---
 
 - ## How to run the project ?
 
@@ -91,6 +99,8 @@
     npm start
     ```
 
+---
+
 - ## Impelementation
 
   - ### Part A. Member
@@ -104,30 +114,32 @@
     - #### User - Restaurant Lobby
       ![Imgur](https://imgur.com/u8oLEW8.png)
     - #### User - Restaurant Menu
-      ![](https://imgur.com/a/S82RZMz.png)
+      ![Imgur](https://imgur.com/8uAuGqv.png)
     - #### User - Order Cart
-      ![](https://imgur.com/a/WUPfkKK.png)
+      ![Imgur](https://imgur.com/d6zAQEJ.png)
     - #### User - Order Checkout
-      ![](https://imgur.com/a/AZ49RRD.png)
+      ![Imgur](https://imgur.com/eh8vBBT.png)
     - #### User - Order Confirmation
-      ![](https://imgur.com/a/3eEdokI.png)
+      ![Imgur](https://imgur.com/HCywPhM.png)
     - #### User - Order Status
-      ![](https://imgur.com/a/cO4erUJ.png)
-    - #### User - History Order
-      ![](https://imgur.com/a/JD4pF1H.png)
+      ![Imgur](https://imgur.com/VK47zmr.png)
     - #### User - Order Compelete
-      ![](https://imgur.com/a/97WyCak.png)
+      ![Imgur](https://imgur.com/hDpNFMT.png)
+    - #### User - History Order
+      ![Imgur](https://imgur.com/zNGNaRl.png)
     - #### User - Review and Rating
-      ![](https://imgur.com/a/kkyQPzX.png)
+      ![Imgur](https://imgur.com/vNE41KH.png)
     - #### User - Review and Rating Overview
-      ![](https://imgur.com/a/OzBF7pP.png)
+      ![Imgur](https://imgur.com/zfJoxOB.png)
   - ### Part C. Restaurant
-    - Restaurant - Order
-      ![](https://imgur.com/a/amF2cPk.png)
-    - Restaurant - Information
-      ![](https://imgur.com/a/cbtU1kl.png)
-    - Restaurant - Menu
-      ![](https://imgur.com/a/98pgieN.png)
+    - #### Restaurant - Order
+      ![Imgur](https://imgur.com/l7rVITn.png)
+    - #### Restaurant - Information
+      ![Imgur](https://imgur.com/IKrLV1f.png)
+    - #### Restaurant - Menu
+      ![Imgur](https://imgur.com/32n7ma6.png)
+
+---
 
 - ## Q&A
 
